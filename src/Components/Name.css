@@ -1,0 +1,21 @@
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.name-bg {
+    background-color: white;
+    padding: 30px;
+    width: 50%;
+    border-radius: 10px;
+}
+form {
+    font-family: "Poppins", sans-serif;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .name-bg {
+        width: 100%;
+    }
+}

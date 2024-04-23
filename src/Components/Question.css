@@ -1,0 +1,25 @@
+.questions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.fields {
+    background-color: white;
+    padding: 30px;
+    width: 50%;
+    border-radius: 10px;
+}
+.fields > P {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #212529;
+}
+.not-listed-input {
+    margin: 1rem 0;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .fields {
+        width: 100%;
+    }
+}
