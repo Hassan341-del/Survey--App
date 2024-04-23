@@ -15,7 +15,11 @@ form {
     font-family: "Poppins", sans-serif;
 }
 @media (min-width: 320px) and (max-width: 767px) {
+    .name {
+        margin: 0 20px
+    }
     .name-bg {
         width: 100%;
+        padding: 20px;
     }
 }
