@@ -53,6 +53,7 @@ export default function Container() {
       Review: e.target.Review.value,
       other: e.target.other.value
     };
+    e.other = `display: none`
     setValue(prevState => ({
       ...prevState,
       questions: questions,

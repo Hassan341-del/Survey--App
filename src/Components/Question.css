@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    height: 90vh;
 }
 .fields {
     background-color: white;
     padding: 30px;
-    width: 50%;
+    width: 30%;
     border-radius: 10px;
 }
 .fields > P {
@@ -19,7 +19,11 @@
     margin: 1rem 0;
 }
 @media (min-width: 320px) and (max-width: 767px) {
+    .questions {
+        margin: 0 20px;
+    }
     .fields {
         width: 100%;
+        padding: 20px;
     }
 }

@@ -1,5 +1,9 @@
 .back-ground {
     background-color: black;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .heading {
     font-family: "Poppins", sans-serif;
